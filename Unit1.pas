@@ -9,6 +9,7 @@ uses
 type
   TForm1 = class(TForm)
     Label1: TLabel;
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -21,5 +22,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  Label1.Caption := 'SEJA BEM VINDO - MATHEUS';
+end;
 
 end.
