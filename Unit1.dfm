@@ -28,8 +28,6 @@ object Form1: TForm1
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
     ParentFont = False
-    ExplicitLeft = 88
-    ExplicitTop = 56
     ExplicitWidth = 215
     ExplicitHeight = 29
   end
