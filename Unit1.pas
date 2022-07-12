@@ -25,7 +25,7 @@ implementation
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  Label1.Caption := 'SEJA BEM VINDO - Mello!!';
+  Label1.Caption := 'SEJA BEM VINDO - Matheus Mello!!';
 end;
 
 end.
