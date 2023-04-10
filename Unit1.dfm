@@ -18,7 +18,7 @@ object Form1: TForm1
     Left = 0
     Top = 0
     Width = 411
-    Height = 143
+    Height = 124
     Align = alClient
     Alignment = taCenter
     Caption = 'SEJA BEM VINDO!'
@@ -30,5 +30,15 @@ object Form1: TForm1
     ParentFont = False
     ExplicitWidth = 215
     ExplicitHeight = 29
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 124
+    Width = 411
+    Height = 19
+    Panels = <>
+    ExplicitLeft = 152
+    ExplicitTop = 120
+    ExplicitWidth = 0
   end
 end
